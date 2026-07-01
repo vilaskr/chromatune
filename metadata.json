@@ -1,0 +1,6 @@
+{
+  "name": "ChromaTune",
+  "description": "An interactive Web Audio visualizer and audio analyzer that maps real-time acoustic features to dynamic, exportable color palettes, gradients, and custom art.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
