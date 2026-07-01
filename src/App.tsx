@@ -1,6 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Music, RefreshCw, Upload, Sparkles, Sliders, Palette, Calendar, Grid, Compass, Layout } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 
 // Hooks & Utils
 import { useAudioEngine } from './hooks/useAudioEngine';
@@ -322,6 +323,7 @@ export default function App() {
           <span className="text-white/20 hidden sm:inline">© 2026 ChromaTune Studio</span>
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 }
